@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4fdr | Design and Development</title>
+<meta name="description" content="Portfolio of Daniel Aldric (4fdr): liveries, uniforms, ELS, Discord bots, graphics, scripting, Discord servers and web development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+<a href="#top" class="brand">4fdr</a>
+<nav>
+<a href="#work">Work</a>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<main id="top">
+<section class="hero">
+<p class="label">Daniel Aldric / Design and Development</p>
+<h1>Liveries, uniforms, bots and the systems behind roleplay communities.</h1>
+<p class="lede">I design and build for emergency services roleplay and beyond: vehicle liveries, uniforms, ELS, Discord bots, servers, graphics and websites. Built to a professional standard, start to finish.</p>
+<div class="hero-actions">
+<a href="#work" class="btn btn-solid">View work</a>
+<a href="#contact" class="btn">Start a project</a>
+</div>
+<ul class="ticker">
+<li>Liveries</li><li>Uniforms</li><li>ELS</li><li>Discord Bots</li><li>Graphics</li><li>Scripting</li><li>Discord Servers</li><li>Embeds</li><li>Web Development</li>
+</ul>
+</section>
+
+<section id="work" class="section">
+<div class="section-head">
+<p class="label">01 / Selected Work</p>
+<h2>Work</h2>
+</div>
+<div class="filters" id="filters"></div>
+<div class="grid" id="grid"></div>
+</section>
+
+<section id="services" class="section">
+<div class="section-head">
+<p class="label">02 / Services</p>
+<h2>What I do</h2>
+</div>
+<div class="services">
+<div class="service"><span class="num">01</span><h3>Liveries</h3><p>Department vehicle liveries with accurate markings, reflective striping and unit numbering for ER:LC and FiveM.</p></div>
+<div class="service"><span class="num">02</span><h3>Uniforms</h3><p>Roblox uniforms for sheriff's offices, police, fire and EMS, including class A, duty and specialty units.</p></div>
+<div class="service"><span class="num">03</span><h3>ELS</h3><p>Emergency lighting patterns and configurations that look and behave like the real thing.</p></div>
+<div class="service"><span class="num">04</span><h3>Discord Bots</h3><p>Custom discord.js bots: applications, tickets, rosters, shift logging, status panels and Components V2 interfaces.</p></div>
+<div class="service"><span class="num">05</span><h3>Discord Servers</h3><p>Full server builds with roles, permissions, channel structure, onboarding and clean embeds.</p></div>
+<div class="service"><span class="num">06</span><h3>Graphics</h3><p>Logos, badges, banners, announcement graphics and department branding.</p></div>
+<div class="service"><span class="num">07</span><h3>Scripting</h3><p>Roblox Luau systems for games, from saved progress to interactive training environments.</p></div>
+<div class="service"><span class="num">08</span><h3>Web Development</h3><p>Department sites, dashboards, CAD systems and browser games, hosted and deployed.</p></div>
+</div>
+</section>
+
+<section id="about" class="section about">
+<div class="section-head">
+<p class="label">03 / About</p>
+<h2>About</h2>
+</div>
+<div class="about-body">
+<p>I am Daniel, known online as 4fdr. I have led and built roleplay departments run to a whitelisted standard, with a real chain of command, structured training and strict entry processes. That experience shapes everything I make: the work is built to be used by real communities, not just to look good in a screenshot.</p>
+<dl class="facts">
+<div><dt>Platforms</dt><dd>Roblox, ER:LC, FiveM, Discord, Web</dd></div>
+<div><dt>Stack</dt><dd>discord.js, Node, PostgreSQL, Luau, HTML/CSS/JS</dd></div>
+<div><dt>Focus</dt><dd>Emergency services roleplay</dd></div>
+</dl>
+</div>
+</section>
+
+<section id="contact" class="section contact">
+<p class="label">04 / Contact</p>
+<h2>Have a project in mind?</h2>
+<p class="lede">Message me on Discord with what you need, your department or server, and any reference material.</p>
+<div class="hero-actions">
+<a href="https://discord.com/users/193205967075147786" class="btn btn-solid" target="_blank" rel="noopener">Discord: 4fdr</a>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<span>&copy; <span id="year"></span> Daniel Aldric</span>
+<span>4fdr</span>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+<button class="lb-close" id="lbClose" aria-label="Close">Close</button>
+<button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">Prev</button>
+<figure>
+<img id="lbImg" alt="">
+<figcaption id="lbCap"></figcaption>
+</figure>
+<button class="lb-nav lb-next" id="lbNext" aria-label="Next">Next</button>
+</div>
+
+<script src="projects.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
